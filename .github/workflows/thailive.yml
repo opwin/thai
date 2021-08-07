@@ -1,4 +1,4 @@
-name: tjailive
+name: thailive
 
 on: workflow_dispatch
 
@@ -12,10 +12,10 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Hacker999123/FreeRdp/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Hacker999123/FreeRdp/main/wallpaper.png -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.com/Hacker999123/FreeRdp/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Hacker999123/FreeRdp/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/opwin/thai/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/opwin/thai/main/wallpaper.png -OutFile wallpaper.png
+        Invoke-WebRequest https://raw.githubusercontent.com/opwin/thai/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/opwin/thai/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/Hacker999123/FreeRdp/main/launcher/Node.js.lnk -OutFile Node.js.lnk
